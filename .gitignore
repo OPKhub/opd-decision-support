@@ -1,0 +1,14 @@
+# Never commit real hospital data, user accounts or logs
+data/*
+!data/.gitkeep
+results/
+*.csv
+!sample_data/SYNTHETIC_sample_lhims_export.csv
+!survey_template.csv
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+# Streamlit secrets (passwords)
+.streamlit/secrets.toml

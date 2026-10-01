@@ -1,0 +1,2 @@
+# Optional: enables the LSTM model. Large download (several hundred MB).
+torch
